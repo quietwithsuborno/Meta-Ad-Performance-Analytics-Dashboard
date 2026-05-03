@@ -20,18 +20,24 @@ The business requires a performance tracking report for advertising campaigns ru
 
 ### 📊 Key Performance Indicators (KPIs)
 
-The following metrics are used to track and measure the performance of the ad campaigns:
+The following metrics are used to track and measure the performance of the ad campaigns, categorized by their source and calculation logic:
 
+#### 📈 Core Metrics
+Directly measured data points from the ad platforms.
 * **Impressions:** Total number of times ads were displayed to the audience.
 * **Clicks:** Total number of times users interacted with the ads.
-* **Shares:** Total number of times ads were shared.
-* **Comments:** Total number of users comments on ads.
 * **Purchases:** Total number of successful transactions made after viewing an ad.
+
+#### 🧪 Derived Metrics
+Calculated metrics that provide deeper insights into campaign efficiency.
 * **Engagements:** Total interactions, including clicks, shares, and comments.
 * **CTR (Click Through Rate):** The percentage of impressions that resulted in clicks.
 * **Engagement Rate:** The percentage of impressions that led to user engagement.
 * **Conversion Rate:** The percentage of clicks that resulted in successful purchases.
 * **Purchase Rate:** The percentage of total impressions that led to purchases.
+
+#### 💰 Budget Metrics
+Metrics focused on financial allocation and spending efficiency.
 * **Total Budget:** Total spend allocated across all campaigns.
 * **Avg. Budget per Campaign:** The average amount of budget distributed per campaign.
 
