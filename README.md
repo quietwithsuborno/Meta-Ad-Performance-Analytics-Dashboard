@@ -78,3 +78,15 @@ The Instagram dashboard highlights a highly engaged audience with a strong prefe
     * **Video Ads** provide the highest "stickiness," boasting the best **Engagement Rate (13.67%)** and **Conversion Rate (5.56%)**.
 * **Geographic Engagement:** Similar to Facebook, the **United States (8.6K engagements)** and **United Kingdom (4.2K engagements)** remain the top performing regions.
 * **Efficiency Metrics:** With a **5.21% Conversion Rate** and **0.61% Purchase Rate**, the Instagram funnel is well-optimized for turning casual browsers into buyers.
+
+---
+
+### 💡 Strategic Business Recommendations (Facebook)
+
+Based on the performance data, the following data-driven strategies are recommended to optimize future campaign ROI:
+
+* **Scale Video Content Production:** Since Video ads achieved the highest CTR (11.78%) and Engagement Rate (13.67%), the marketing budget should be prioritized toward high-quality video production over static images to maximize audience interest.
+* **Optimize for Female Audience (Ages 18-30):** This segment is the primary driver of impressions (44%). Future ad copies and creative themes should be tailored specifically to resonate with the preferences and trends of young female consumers.
+* **Double Down on Story Ads for Reach:** "Stories" generated the highest volume of impressions (23.8K). To increase brand awareness at a lower cost, more "Top-of-Funnel" awareness campaigns should be funneled through the Stories format.
+* **Retargeting in High-Potential Markets:** The United States shows massive reach (64K impressions). Implementing a retargeting pixel for US-based users who clicked but didn't purchase (Conversion Gap) could significantly boost the current 5.21% conversion rate.
+* **Prime-Time Ad Scheduling:** Hourly trends indicate specific peaks in user activity. Scheduling the majority of the daily budget to be spent during these high-engagement hours can prevent "ad fatigue" and lower the CPC (Cost Per Click).
