@@ -42,3 +42,37 @@ Metrics focused on financial allocation and spending efficiency.
 * **Avg. Budget per Campaign:** The average amount of budget distributed per campaign.
 
 > 💡 *For detailed calculation logic, formulas, and usage examples, please refer to the [Full KPI Documentation](./docs/kpis_and_definitions.md).*
+
+---
+
+### 🖥️ Dashboard Overview
+The project features a fully dynamic Power BI dashboard with dedicated views for both Facebook and Instagram performance.
+
+#### Facebook Ad Performance Dashboard
+<p align="center">
+  <img src="dashboards/facebook_dashboard.PNG" alt="Facebook Ad Performance Dashboard" width="800">
+</p>
+
+The campaign demonstrated strong alignment between creative execution and audience targeting, resulting in high engagement rates and efficient conversion metrics across key demographics.
+
+#### 1. Conversion Funnel Performance
+The campaign achieved an **11.76% CTR** (Click-Through Rate) and a **5.21% Conversion Rate**. These figures indicate that both the audience targeting strategies and the creative assets were highly effective in driving action.
+
+#### 2. Demographic Leadership
+*   **Gender:** Female audiences showed the highest responsiveness, accounting for **44% of total impressions**.
+*   **Age Group:** The **18–30 age bracket** emerged as the most active demographic, generating the highest volume of impressions.
+
+#### 3. High-Performing Ad Formats
+*   **Stories:** This format secured the highest reach with **23.8K impressions** and the most clicks, highlighting strong mobile-first audience engagement.
+*   **Video Ads:** While Stories led in volume, Video ads led in quality, boasting a peak **11.78% CTR** and a **13.67% Engagement Rate**.
+
+#### 4. Geographic Reach
+The **United States** served as the primary target market, contributing the highest volume of traffic with **64K impressions**.
+
+#### 5. Engagement Volume
+The campaign generated a total of **29.3K engagements**. Key social proof metrics include:
+*   **Shares:** 1.3K
+*   **Comments:** 2.6K
+
+#### 6. Efficiency & ROI
+With an average budget distribution of **$50.7K** per campaign, the strategy successfully secured **1.3K total purchases**, reflecting a structured approach to scaled conversions.
