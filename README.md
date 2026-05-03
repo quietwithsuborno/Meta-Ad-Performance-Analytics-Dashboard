@@ -90,3 +90,17 @@ Based on the performance data, the following data-driven strategies are recommen
 * **Double Down on Story Ads for Reach:** "Stories" generated the highest volume of impressions (23.8K). To increase brand awareness at a lower cost, more "Top-of-Funnel" awareness campaigns should be funneled through the Stories format.
 * **Retargeting in High-Potential Markets:** The United States shows massive reach (64K impressions). Implementing a retargeting pixel for US-based users who clicked but didn't purchase (Conversion Gap) could significantly boost the current 5.21% conversion rate.
 * **Prime-Time Ad Scheduling:** Hourly trends indicate specific peaks in user activity. Scheduling the majority of the daily budget to be spent during these high-engagement hours can prevent "ad fatigue" and lower the CPC (Cost Per Click).
+
+---
+
+### 💡 Strategic Business Recommendations (Instagram)
+
+To further capitalize on high engagement and improve ROI on Instagram, the following data-driven strategies are recommended:
+
+* **Leverage Video for Conversions:** Video ads achieved the highest Conversion Rate (5.56%) and Purchase Rate (0.66%). Allocating more budget to short-form video content (Reels/Videos) will likely drive more sales compared to static images.
+* **Focus on Gen Z & Millennial Women:** Engagement is highest among females (43%) and users aged 18-25. Influencer collaborations and aesthetic, "Instagrammable" creative designs should be prioritized to maintain interest in this demographic.
+* **Stories for High-Volume Clicks:** Since "Stories" drive the most clicks (2.7K) and impressions (23.8K), they should be used as the primary channel for limited-time offers, flash sales, and direct "Swipe Up/Link" traffic.
+* **Engagement-First Campaigns:** With a higher Engagement Rate (13.56%) than Facebook, Instagram is ideal for brand community building. Implementing "Saveable" and "Shareable" content (like tips or tutorials) can organically reduce the long-term CPA (Cost Per Acquisition).
+* **Target Peak Engagement Hours:** The 'Hourly Engagements' trend shows significant fluctuations. Analyzing these peaks and scheduling ad delivery during high-activity hours will optimize the budget and increase the likelihood of immediate user interaction.
+* **Geographic Expansion in Top Regions:** Since the US and UK are driving the bulk of the engagement (8.6K and 4.2K respectively), localized content or region-specific offers could improve the Conversion Rate in these high-value markets.
+
