@@ -1,15 +1,15 @@
-## 📊 Overview
+### 📊 Overview
 This Meta Ad Performance Dashboard tracks the effectiveness of ad campaigns across key KPIs, such as impressions, clicks, engagements, conversions, and budget. It provides a complete funnel view from awareness to engagement to purchases, along with demographic, geographic, and time-based insights.
 
 ---
 
-## 🎯 Business Objective
+### 🎯 Business Objective
 The business requires a performance tracking report for advertising campaigns running on Facebook and Instagram. This report provides visibility into campaign reach, engagement, conversions, and budget utilization, enabling the marketing team to:
 * Identify the most effective platform (Facebook vs Instagram).
 * Track campaign ROI and optimize budget allocation.
 * Understand audience engagement patterns.
 
-## 🚀 Scope of the Report
+### 🚀 Scope of the Report
 * **In Scope:**
     * Campaigns running on Facebook and Instagram only.
 * **Out of Scope:**
