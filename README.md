@@ -9,7 +9,7 @@ The business requires a performance tracking report for advertising campaigns ru
 * Track campaign ROI and optimize budget allocation.
 * Understand audience engagement patterns.
 
-### 🚀 Scope of the Report
+### 📌 Project Scope
 * **In Scope:**
     * Campaigns running on Facebook and Instagram only.
 * **Out of Scope:**
@@ -34,6 +34,29 @@ The dataset used for this analysis was provided by my mentor and consists of fou
 
 * **Power BI**
 * **Excel**
+
+---
+
+## 📂 Project Structure
+
+The repository follows a modular structure to separate data, documentation, and reporting assets:
+```text
+├── datasets/                       # Primary Excel data sources
+│   ├── ad_events.xlsx              # 400K+ interaction records
+│   ├── ads.xlsx                    # Ad metadata (201 ads)
+│   ├── campaigns.xlsx              # Campaign details (51 campaigns)
+│   └── user.xlsx                   # Demographic data (9,842 users)
+├── docs/                           # Technical documentation
+│   ├── data_dictionary.md          # Detailed column descriptions
+│   └── kpis_and_definitions.md     # Business logic for calculated metrics
+├── images/                         # Visual assets for the project
+│   ├── data_model.PNG              # Star Schema architecture diagram
+│   ├── facebook_dashboard.PNG      # Power BI Facebook report screenshot
+│   └── instagram_dashboard.PNG     # Power BI Instagram report screenshot
+├── reports/                        # Interactive BI report files
+│   └── visuals.pbix                # Main Power BI dashboard file
+├── LICENSE                         # Project licensing information
+└── README.md                       # Project overview and methodology
 
 ---
 
@@ -137,7 +160,7 @@ Metrics focused on financial allocation and spending efficiency.
 ## 🖥️ Dashboard Overview
 The project features a fully dynamic Power BI dashboard with dedicated views for both Facebook and Instagram performance.
 
-### Facebook Ad Performance Dashboard
+### Facebook Ad Performance Dashboard Preview
 <p align="center">
   <img src="images/facebook_dashboard.PNG" alt="Facebook Ad Performance Dashboard" width="800">
 </p>
@@ -153,7 +176,7 @@ The facebook dashboard highlights a highly effective targeting strategy with a s
 * **Interaction Quality & Social Proof:** The campaign generated **29.3K total engagements**, including **1.3K shares** and **2.6K comments**, which significantly strengthens the brand's social proof and organic reach.
 * **Efficiency Metrics:** Managed with an average budget of **$50.7K**, the campaign demonstrates a high ROI by maintaining strong interaction quality alongside consistent purchase volume.
 
-### Instagram Ad Performance Dashboard
+### Instagram Ad Performance Dashboard Preview
 <p align="center">
   <img src="images/instagram_dashboard.PNG" alt="Instagram Ad Performance Dashboard" width="800">
 </p>
