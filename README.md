@@ -26,12 +26,84 @@ The dataset used for this analysis was provided by my mentor and consists of fou
 *   **Users (Demographics):** The `users` table acts as the master demographic record, storing geographic and behavioral attributes (Age, Gender, Interests) of the target audience.
 *   **Ad Events (Activity):** This is the central "Fact Table" that records every granular interaction. By linking `user_id` and `ad_id`, we can track exactly how different demographics respond to specific ad types and platforms.
 
+> 💡 *For details breakdown of all tables and column-level descriptions, please refer to the [Full dictionary Documentation](docs/data_dictionary.md).*
+
 ---
 
 ## 🛠️ Tools & Technologies
 
 * **Power BI**
 * **Excel**
+
+---
+
+## ⚙️ Methodology (Workflow)
+
+This project follows a structured data analytics workflow, ensuring data quality, accurate analysis, and actionable business insights from raw data to final visualization.
+
+### 1. Data Ingestion & Understanding
+- Imported 4 primary datasets: `ad_events`, `ads`, `campaigns`, and `users` provided in Excel format.
+- Conducted an initial data assessment to understand table relationships, business context, and key performance indicators (KPIs).
+
+### 2. Data Cleaning & Preparation
+- Used **Power Query** to assess and improve overall data quality.
+- Identified data inconsistencies in the `campaigns` table, where columns such as `start_date` and `end_date` were stored in incorrect text format.
+- Applied Python-based preprocessing to standardize and convert date values into valid date format before loading the data into Power BI.
+- Performed additional cleaning and transformation steps to ensure consistency and analytical readiness.
+
+### 3. Data Modeling (Star Schema)
+
+The analytical foundation of this project is built using a **Star Schema** within Power BI to ensure scalable data modeling, optimized query performance, and accurate cross-dimensional analysis.
+
+#### 📌 Fact Table
+- **`ad_events`** — Central fact table containing measurable campaign performance metrics such as clicks, impressions, conversions, shares, comments, CTR, and Conversion Rate.
+
+#### 📌 Dimension Tables
+- **`campaigns`** — Stores campaign-level metadata, objectives, and budget information.
+- **`ads`** — Contains ad platform details, creative formats, and ad-related attributes.
+- **`users`** — Provides demographic insights including age, gender, and geographic location.
+- **`calendar`** — Dedicated date dimension table created to support time-intelligence analysis and date-based reporting.
+
+#### 🔗 Relationship Architecture
+The model follows a **One-to-Many (1:*) relationship structure**, where the `ad_events` fact table is connected to each dimension table using unique identifiers such as:
+
+- `campaign_id`
+- `ad_id`
+- `user_id`
+- `date`
+
+This architecture enables seamless drill-down analysis from high-level campaign performance to detailed audience engagement insights.
+
+#### 🏗️ Data Architecture & Relationship Model
+
+<p align="center">
+  <img src="images/data_model.PNG" alt="Data Architecture & Relationship Model" width="800">
+</p>
+
+#### 📅 Calendar Table Enhancements
+Created a custom calendar table with derived columns to support advanced date-based analysis:
+
+- Day
+- Day Name
+- Month
+- Weekday
+- Week Number
+
+#### 📊 DAX & Interactive Analytics
+Implemented 12+ business KPIs and dynamic analytical features using DAX, including:
+
+- Dynamic chart titles
+- Dynamic measure slicer
+- Interactive tooltips for date-wise KPI exploration
+- Performance and engagement metric calculations
+
+### 4. Visualization & Insights (Power BI)
+Developed an interactive Power BI dashboard focused on:
+
+- **Campaign Performance:** ROI, conversions, and campaign-level KPIs
+- **Demographic Analysis:** Performance by age group, gender, and location
+- **Platform Comparison:** Comparative analysis of Facebook vs. Instagram ad performance
+- **Interactive Reporting:** Real-time filtering and dynamic dashboard exploration
 
 ---
 
@@ -67,7 +139,7 @@ The project features a fully dynamic Power BI dashboard with dedicated views for
 
 ### Facebook Ad Performance Dashboard
 <p align="center">
-  <img src="dashboards/facebook_dashboard.PNG" alt="Facebook Ad Performance Dashboard" width="800">
+  <img src="images/facebook_dashboard.PNG" alt="Facebook Ad Performance Dashboard" width="800">
 </p>
 
 The facebook dashboard highlights a highly effective targeting strategy with a strong resonance among the core audience. Key observations include:
@@ -83,7 +155,7 @@ The facebook dashboard highlights a highly effective targeting strategy with a s
 
 ### Instagram Ad Performance Dashboard
 <p align="center">
-  <img src="dashboards/instagram_dashboard.PNG" alt="Instagram Ad Performance Dashboard" width="800">
+  <img src="images/instagram_dashboard.PNG" alt="Instagram Ad Performance Dashboard" width="800">
 </p>
 
 The Instagram dashboard highlights a highly engaged audience with a strong preference for visual storytelling. Key observations include:
