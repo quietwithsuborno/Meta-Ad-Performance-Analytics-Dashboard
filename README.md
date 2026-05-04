@@ -193,3 +193,15 @@ To further capitalize on high engagement and improve ROI on Instagram, the follo
 * **Target Peak Engagement Hours:** The 'Hourly Engagements' trend shows significant fluctuations. Analyzing these peaks and scheduling ad delivery during high-activity hours will optimize the budget and increase the likelihood of immediate user interaction.
 * **Geographic Expansion in Top Regions:** Since the US and UK are driving the bulk of the engagement (8.6K and 4.2K respectively), localized content or region-specific offers could improve the Conversion Rate in these high-value markets.
 
+---
+
+## ⚠️ Limitations
+* **Static Analysis:** The current insights are based on a 30-day historical snapshot, which may not account for seasonal variations or long-term trends.
+* **Attribution Blindness:** Without access to the full customer journey (multi-touch attribution), the analysis primarily focuses on last-click interactions.
+* **Platform Constraints:** External factors such as competitor ad spend or changes in social media algorithms are not captured in the dataset.
+
+## 🚀 Future Improvements
+* **Harnessing Big Data:** With over **400,000 records** in the `ad_events` table and nearly **10,000 unique users**, I plan to expand this project into a comprehensive multi-page dashboard.
+* **Deep-Dive Segment Analytics:** Leverage the **51 campaigns** and **201 individual ads** to conduct granular A/B testing analysis and performance benchmarking.
+* **Predictive Modeling:** Utilize the large dataset to build a **Python-based Machine Learning model** for predicting user conversion probability based on interests and demographic data.
+* **Advanced DAX & Automation:** Implement more complex Time-Intelligence DAX measures and automate the data refresh cycle using Power BI Service.
