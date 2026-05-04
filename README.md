@@ -18,6 +18,23 @@ The business requires a performance tracking report for advertising campaigns ru
  
 ---
 
+## 📁 Dataset
+
+The dataset used for this analysis was provided by my mentor and consists of four interconnected tables. This structured data allows for a comprehensive look at the marketing funnel, from user demographics to ad performance.
+
+*   **Campaigns & Ads (Strategy):** The `campaigns` table defines the high-level budget and timeline, which is then broken down into specific creative formats and targeting rules within the `ads` table.
+*   **Users (Demographics):** The `users` table acts as the master demographic record, storing geographic and behavioral attributes (Age, Gender, Interests) of the target audience.
+*   **Ad Events (Activity):** This is the central "Fact Table" that records every granular interaction. By linking `user_id` and `ad_id`, we can track exactly how different demographics respond to specific ad types and platforms.
+
+---
+
+## 🛠️ Tools & Technologies
+
+* **Power BI**
+* **Excel**
+
+---
+
 ## 📊 Key Performance Indicators (KPIs)
 
 The following metrics are used to track and measure the performance of the ad campaigns, categorized by their source and calculation logic:
